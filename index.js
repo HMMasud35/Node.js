@@ -179,19 +179,14 @@ const http = require("http")
 
 //@@ server
 const server = http.createServer((req, res) => {
-  res.writeHead(200, {"Content-type": "text/html"})
-res.end("<h1>new file</h1>")
- })
+  res.writeHead(200, { "Content-type": "text/html" })
+  res.end("<h1>new file</h1>")
+})
 
- server.listen(3000, () => {
+server.listen(3000, () => {
   console.log("server runing....");
-  
- })
 
-//@@ url parse
-// let adr = "https://www.https://www.figma.com/files/team/1392598710001733481/recents-and-sharing?fuid=1392598705731773924.com/react/default.asp"
-// const urlparse = url.parse(adr, true)
-// console.log(urlparse);
+})
 
 
 
