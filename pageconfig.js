@@ -1,5 +1,5 @@
 
-//একটি কমান্ড করতে হবে।
+//একটি কমেন্ট রাখতে হবে।
 //@@ If the type is common js, Import the results of any function into another page
 
 function total(a, b){
